@@ -16,6 +16,11 @@
 		BA7B206427063356009EF0DE /* array_project.c in Sources */ = {isa = PBXBuildFile; fileRef = BA7B206327063356009EF0DE /* array_project.c */; };
 		BA7B20662706386E009EF0DE /* pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = BA7B20652706386E009EF0DE /* pointer.c */; };
 		BA7B20682706D4B4009EF0DE /* pointer_project.c in Sources */ = {isa = PBXBuildFile; fileRef = BA7B20672706D4B4009EF0DE /* pointer_project.c */; };
+		BA7B206C2707245C009EF0DE /* m_array_project.c in Sources */ = {isa = PBXBuildFile; fileRef = BA7B206B2707245C009EF0DE /* m_array_project.c */; };
+		BA7B206E2708A6E8009EF0DE /* struct.c in Sources */ = {isa = PBXBuildFile; fileRef = BA7B206D2708A6E8009EF0DE /* struct.c */; };
+		BA7B20702708ABE7009EF0DE /* struct_project.c in Sources */ = {isa = PBXBuildFile; fileRef = BA7B206F2708ABE7009EF0DE /* struct_project.c */; };
+		BA7B20722708B231009EF0DE /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = BA7B20712708B231009EF0DE /* file.c */; };
+		BA7B20742708B8D4009EF0DE /* file_project.c in Sources */ = {isa = PBXBuildFile; fileRef = BA7B20732708B8D4009EF0DE /* file_project.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +46,11 @@
 		BA7B206327063356009EF0DE /* array_project.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = array_project.c; sourceTree = "<group>"; };
 		BA7B20652706386E009EF0DE /* pointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointer.c; sourceTree = "<group>"; };
 		BA7B20672706D4B4009EF0DE /* pointer_project.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pointer_project.c; sourceTree = "<group>"; };
+		BA7B206B2707245C009EF0DE /* m_array_project.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = m_array_project.c; sourceTree = "<group>"; };
+		BA7B206D2708A6E8009EF0DE /* struct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = struct.c; sourceTree = "<group>"; };
+		BA7B206F2708ABE7009EF0DE /* struct_project.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = struct_project.c; sourceTree = "<group>"; };
+		BA7B20712708B231009EF0DE /* file.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = file.c; sourceTree = "<group>"; };
+		BA7B20732708B8D4009EF0DE /* file_project.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = file_project.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,11 @@
 				BA7B206327063356009EF0DE /* array_project.c */,
 				BA7B20652706386E009EF0DE /* pointer.c */,
 				BA7B20672706D4B4009EF0DE /* pointer_project.c */,
+				BA7B206B2707245C009EF0DE /* m_array_project.c */,
+				BA7B206D2708A6E8009EF0DE /* struct.c */,
+				BA7B206F2708ABE7009EF0DE /* struct_project.c */,
+				BA7B20712708B231009EF0DE /* file.c */,
+				BA7B20732708B8D4009EF0DE /* file_project.c */,
 			);
 			path = MyProject;
 			sourceTree = "<group>";
@@ -142,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA7B20722708B231009EF0DE /* file.c in Sources */,
+				BA7B20742708B8D4009EF0DE /* file_project.c in Sources */,
+				BA7B20702708ABE7009EF0DE /* struct_project.c in Sources */,
 				BA7B20562705DD5D009EF0DE /* printfscanf.c in Sources */,
 				BA7B20582705E441009EF0DE /* loop.c in Sources */,
+				BA7B206E2708A6E8009EF0DE /* struct.c in Sources */,
 				BA7B20602705F2F5009EF0DE /* function_project.c in Sources */,
 				BA7B20662706386E009EF0DE /* pointer.c in Sources */,
 				BA7B206227062E47009EF0DE /* array.c in Sources */,
@@ -151,6 +170,7 @@
 				BA7B20682706D4B4009EF0DE /* pointer_project.c in Sources */,
 				BA7B206427063356009EF0DE /* array_project.c in Sources */,
 				BA7B205A2705E7A9009EF0DE /* condition.c in Sources */,
+				BA7B206C2707245C009EF0DE /* m_array_project.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
